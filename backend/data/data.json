@@ -1,0 +1,42 @@
+{
+  "traffic_structure": {
+    "lt1b": [
+      {
+        "range": {
+          "start": 0,
+          "end": 100
+        },
+        "fixed_charge": 85.0,
+        "energy_charge": 3.45,
+        "wheeling_charge": 2.21
+      },
+      {
+        "range": {
+          "start": 101,
+          "end": 300
+        },
+        "fixed_charge": 125.0,
+        "energy_charge": 5.55,
+        "wheeling_charge": 2.21
+      },
+      {
+        "range": {
+          "start": 301,
+          "end": 500
+        },
+        "fixed_charge": 125.0,
+        "energy_charge": 7.45,
+        "wheeling_charge": 2.21
+      },
+      {
+        "range": {
+          "start": 500,
+          "end": "Infinity"
+        },
+        "fixed_charge": 150.0,
+        "energy_charge": 8.55,
+        "wheeling_charge": 2.21
+      }
+    ]
+  }
+}

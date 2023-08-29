@@ -1,0 +1,16 @@
+{
+  "name": "kilowatt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "concurrently \" cd backend && npm install \"  \" cd frontend && npm install \"",
+    "development": "concurrently \" cd backend && npm run dev \" \"cd frontend && npm run dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
